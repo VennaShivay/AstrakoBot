@@ -30,8 +30,8 @@ class Config(object):
     ALLOW_CHATS = True
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://astrabot_user:6Ag5qzr3gKvqcZngSraoVVsDtfuqJIWH@dpg-cf1vbf14reb5o43lkbt0-a.oregon-postgres.render.com/astrabot"  # needed for any database modules
-    DB_NAME = "astrabot"  # needed for cron_jobs module, use same databasename from SQLALCHEMY_DATABASE_URI
+    SQLALCHEMY_DATABASE_URI = "postgres://astra309:aFSGIFcpuzaurhOf8MdpfRlAzTeyvqN5@dpg-cgok668u9tun42pfn5hg-a.oregon-postgres.render.com/astra"  # needed for any database modules
+    DB_NAME = "astra"  # needed for cron_jobs module, use same databasename from SQLALCHEMY_DATABASE_URI
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
