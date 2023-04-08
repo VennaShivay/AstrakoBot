@@ -18,7 +18,7 @@ class Config(object):
     API_ID = 22743513  # integer value, dont use ""
     API_HASH = "38f450dee835a7668fbaec9655ebcca8"
     TOKEN = "5661136581:AAG_-rajn2TVRqvRKEQvZ7s3XZ7slHb3Phw"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1493545483  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = "1493545483"  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "Pilotgalaxy"
     SUPPORT_CHAT = "SpicySupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
